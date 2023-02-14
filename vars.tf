@@ -11,7 +11,7 @@ variable "built_in_role_assignments" {
     azuread_principal_object_id   = string
   }))
   default = [
-    ## mg-berlin-root
+    ## mg-example-root
     {
       role_assignment_name          = "Management Group Contributor"
       scope_type                    = "mgmt_group" # mgmt_group or sub
